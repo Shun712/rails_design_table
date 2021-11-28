@@ -1,0 +1,21 @@
+- users
+  - id: integer
+  - name: string
+  - email: string
+  - password: string
+  - nickname: string
+  - picture: string
+
+- questions
+  - id: integer
+  - user_id: integer
+  - title: string
+  - content: text
+  - solved_check: integer
+
+- notifications
+  - id: integer
+  - question_id: integer
+  - visitor_id: integer
+  - visited_id: integer
+  - checked: integer
