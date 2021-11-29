@@ -2,9 +2,10 @@
   - id: integer
   - name: string
   - email: string
-  - password: string
+  - password_digest: string
   - nickname: string
   - picture: string
+  - admin: boolean
 
 - questions
   - id: integer
@@ -16,6 +17,4 @@
 - notifications
   - id: integer
   - question_id: integer
-  - visitor_id: integer
-  - visited_id: integer
-  - checked: integer
+  - user_id: integer
