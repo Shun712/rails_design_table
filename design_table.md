@@ -12,9 +12,10 @@
   - user_id: integer
   - title: string
   - content: text
-  - solved_check: integer
+  - solved_check: boolean
 
-- notifications
+- answers
   - id: integer
   - question_id: integer
   - user_id: integer
+  - content: text
